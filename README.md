@@ -1,4 +1,4 @@
-# ModelMeter
+# Modelmeter
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,25 +64,25 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-ModelMeter provides an AI changelog service that tracks model deprecations, sunsets, silent swaps, and price changes. It offers source‑verified information with countdowns, migration targets, and receipts. The platform includes a JSON API and an MCP server, requires no authentication, and is built for agents while remaining friendly to humans.
+Modelmeter provides an AI changelog service that tracks source‑verified deprecations, sunsets, silent model swaps, and price changes across AI models. It offers a JSON‑first API, an MCP server, and publishes llms.txt for agents. The platform includes pricing datasets, event streams, and a web dashboard for humans.
 
-**Areas:** AI · Model Lifecycle · Pricing · Deprecations · Changelog
+**Areas:** AI · Changelog · Pricing · Dataset · OpenAPI · Modelmeter
 
-## ModelMeter on APIs.io
+## Modelmeter on APIs.io
 
-Everything profiled for ModelMeter is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/modelmeter-xyz/](https://apis.io/providers/modelmeter-xyz/)** — or go straight to one of the APIs or properties below.
+Everything profiled for Modelmeter is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/modelmeter-xyz/](https://apis.io/providers/modelmeter-xyz/)** — or go straight to one of the APIs or properties below.
 
 ### APIs (9)
 
-- [ModelMeter Check API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-check-api/) — The Check API from ModelMeter — 1 operation(s) for check.
-- [ModelMeter Deprecations API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-deprecations-api/) — The Deprecations API from ModelMeter — 1 operation(s) for deprecations.
-- [ModelMeter Estimate API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-estimate-api/) — The Estimate API from ModelMeter — 1 operation(s) for estimate.
-- [ModelMeter Events API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-events-api/) — The Events API from ModelMeter — 1 operation(s) for events.
-- [ModelMeter Events.json API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-events-json-api/) — The Events.json API from ModelMeter — 1 operation(s) for events.json.
-- [ModelMeter Feed.json API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-feed-json-api/) — The Feed.json API from ModelMeter — 1 operation(s) for feed.json.
-- [ModelMeter Model API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-model-api/) — The Model API from ModelMeter — 1 operation(s) for model.
-- [ModelMeter Models API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-models-api/) — The Models API from ModelMeter — 1 operation(s) for models.
-- [ModelMeter Pricing.json API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-pricing-json-api/) — The Pricing.json API from ModelMeter — 1 operation(s) for pricing.json.
+- [Modelmeter Check API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-check-api/) — The Check API from Modelmeter — 1 operation(s) for check.
+- [Modelmeter Deprecations API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-deprecations-api/) — The Deprecations API from Modelmeter — 1 operation(s) for deprecations.
+- [Modelmeter Estimate API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-estimate-api/) — The Estimate API from Modelmeter — 1 operation(s) for estimate.
+- [Modelmeter Events API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-events-api/) — The Events API from Modelmeter — 1 operation(s) for events.
+- [Modelmeter Events.json API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-events-json-api/) — The Events.json API from Modelmeter — 1 operation(s) for events.json.
+- [Modelmeter Feed.json API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-feed-json-api/) — The Feed.json API from Modelmeter — 1 operation(s) for feed.json.
+- [Modelmeter Model API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-model-api/) — The Model API from Modelmeter — 1 operation(s) for model.
+- [Modelmeter Models API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-models-api/) — The Models API from Modelmeter — 1 operation(s) for models.
+- [Modelmeter Pricing.json API](https://apis.io/apis/modelmeter-xyz/modelmeter-xyz-pricing-json-api/) — The Pricing.json API from Modelmeter — 1 operation(s) for pricing.json.
 
 ### Published properties
 
@@ -92,7 +92,7 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Which operations an agent can call, which act, and which need a human in the loop.
 
-- [ModelMeter Agentic Access](https://apis.io/agentic-access/modelmeter-xyz/modelmeter-xyz-agentic-access/)
+- [Modelmeter Agentic Access](https://apis.io/agentic-access/modelmeter-xyz/modelmeter-xyz-agentic-access/)
 
 #### JSON Schema (3)
 
@@ -112,26 +112,25 @@ Linked-data contexts for the provider's vocabulary.
 
 Spectral rulesets for the provider's contracts.
 
-- [ModelMeter API Rules](https://apis.io/rules/modelmeter-xyz/modelmeter-xyz-rules/)
+- [Modelmeter API Rules](https://apis.io/rules/modelmeter-xyz/modelmeter-xyz-rules/)
 
 #### Security (1)
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [ModelMeter Domain Security](https://apis.io/security/modelmeter-xyz/modelmeter-xyz-domain-security/)
+- [Modelmeter Domain Security](https://apis.io/security/modelmeter-xyz/modelmeter-xyz-domain-security/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://modelmeter.xyz/)
-- [Documentation](https://modelmeter.xyz/docs)
-- [API reference](https://modelmeter.xyz/openapi.yaml)
+- [API reference](https://modelmeter.xyz/openapi.json)
 - [Pricing](https://modelmeter.xyz/pricing.json)
 
 ## API Evangelist rating
 
-**Kin Score 31.9** — thin · rubric 0.28.0 · scored 2026-11-19
+**Kin Score 30.0** — thin · rubric 0.28.0 · scored 2026-11-19
 
 | Facet | Score |
 |---|---|
@@ -139,7 +138,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Contract quality | 49.9 |
 | Contract governance | 79.1 |
 | Operational transparency | 0.0 |
-| Developer ergonomics | 16.7 |
+| Developer ergonomics | 7.1 |
 | Access clarity | 8.5 |
 
 **Agent readiness 22.4** — agent-aware
@@ -177,7 +176,7 @@ The rubric is published at [github.com/api-evangelist/kin-score](https://github.
 
 API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ModelMeter: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Modelmeter: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
 ## Open an issue
 
